@@ -4,4 +4,8 @@ body {
   text-align: center;
 }
 
+nav {
+  background-color: blueviolet;
+  align-items: flex-start;
+}
 
