@@ -1,11 +1,35 @@
+html {
+  box-sizing: border-box
+}
+
+/* The Universal Selector */
+*, /* All elements*/
+*::before, /* All ::before pseudo-elements */
+*::after { /* All ::after pseudo-elements */
+  /* height & width will now include border & padding by default
+     but can be over-ridden as needed */
+  box-sizing: inherit;
+}
+
+/* resets font size to be 62.5% of the user preference - 
+     in most browser configurations this will be 10px */
+:root {
+    font-size: 62.5%
+}
+
+
+
 body {
   background: whitesmoke;
   color: rgba(53, 53, 199, 0.865);
   text-align: center;
+  font-size: 1.9rem;
 }
 
-nav {
-  background-color: blueviolet;
-  align-items: flex-start;
+footer {
+  display: inline;
+  margin-top: 200px;
 }
+
+
 
