@@ -26,6 +26,17 @@ body {
   font-size: 1.9rem;
 }
 
+#nav-links {
+  background-color: rgba(53, 53, 199, 0.865);
+  position: fixed;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#main-img {
+  width: 100%;
+}
+
 footer {
   display: inline;
   margin-top: 200px;
