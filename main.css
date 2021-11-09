@@ -47,11 +47,12 @@ body {
   padding: 2%;
 }
 
-.header-container {
-  position: relative;
+
+#header-container {
+  background:  url(./Pictures/8AA80411-3C2A-4D10-8D9B-226F76588DB5_1_105_c.jpeg) 50% 0 no-repeat fixed;
+  padding: 12.5em 0;
   text-align: center;
-  color: rgba(32, 61, 227, 0.858);
-  background-color: rgb(64, 64, 232, .6);
+  color: gainsboro;
 }
 
 .centered {
