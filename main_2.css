@@ -28,6 +28,10 @@ body {
   margin: 0;
   text-align: center;
 }
+nav {
+  height: 100px;
+  display: ruby-base-container;
+}
 
 .links {
   text-decoration: none;
