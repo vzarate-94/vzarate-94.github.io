@@ -16,82 +16,39 @@ html {
 :root {
     font-size: 62.5%
 }
-* {
-  text-decoration: none !important;
-}
 
-body {
-  background-color:whitesmoke;
-  color: rgba(32, 61, 227, 0.858);
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.9rem;
-  margin: 0;
-  text-align: center;
-}
-
-.links {
-  text-decoration: none;
-  padding: 10px;
-  color: whitesmoke;
+body{
+  margin: 0%;
+  background-color: gainsboro;
 }
 
 #nav-links {
-  background-color: rgb(64, 64, 232, .6);
-  position: relative;
+  position: fixed;
   height: 100px;
   font-size: 2.9rem;
-  color: whitesmoke;
+  color: gainsboro;
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
-  padding: 2%;
 }
 
-
 #header-container {
-  background:  url(./Pictures/8AA80411-3C2A-4D10-8D9B-226F76588DB5_1_105_c.jpeg) 50% 0 no-repeat fixed;
-  padding: 12.5em 0;
+  background-image:  url(./images/sanMiguelPortfolio.jpeg) ;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
   text-align: center;
-  color: gainsboro;
+  margin-top: -12px;
 }
 
 .centered {
-  position: absolute;
-  flex-direction: row;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: gainsboro;
-  background-color: rgb(64, 64, 232, .6);
+  align-self: center;
+  background-color: rgb(64, 64, 232, .345);
+  height: 600px;
   width: 100%;
-  height: 400px;
-  align-items: center;
-  padding-top: 200px;
-}
-
-a:-webkit-any-link {
-  cursor: pointer;
-  text-decoration: none;
-}
-
-*, *::before, *::after {
-  text-decoration: none;
-}
-
-#contacts {
-  display: inline;
-}
-
-.centered {
-  color: gainsboro;
-  background-color: rgb(64, 64, 232, .6);
-  width: 100%;
-  height: 400px;
-  align-items: center;
-  padding-top: 200px;
-}
-
-#about {
-  background: gainsboro;
-  color: antiquewhite;
 }
