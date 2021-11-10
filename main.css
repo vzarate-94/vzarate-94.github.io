@@ -54,12 +54,20 @@ header {
 
 .centered {
   position: absolute;
-  top: 80%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: gainsboro;
+  color: rgb(89, 2, 2);
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgba(167, 133, 161, 0.529);
+  -webkit-text-stroke-color: rgba(177, 172, 176, 0.831);
   font-size: 38px;
   align-items: center;
+}
+
+#about {
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: gainsboro;
+  padding-top: 5%;
 }
