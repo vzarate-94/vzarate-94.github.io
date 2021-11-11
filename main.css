@@ -50,6 +50,7 @@ header {
   background-size: cover;
   height: 720px;
   width: 100%;
+  border-bottom: 2px solid black;
 }
 
 .centered {
@@ -70,4 +71,14 @@ header {
   justify-content: space-around;
   background-color: gainsboro;
   padding-top: 5%;
+}
+
+.portfolio-section {
+  background-color: gainsboro;
+  height: 500px;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 34px;
+  border-bottom: 2px solid black;
+
 }
