@@ -136,5 +136,11 @@ footer {
   justify-content: center;
   align-items: center;
   height: 300px;
+  color: black;
   background-color: gainsboro;
+  text-decoration: none;
+}
+
+footer a {
+  color: black;
 }
