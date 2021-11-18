@@ -66,7 +66,7 @@ header {
   color: rgb(89, 2, 2);
   /* -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: rgba(252, 252, 252, 0.708); */
-  font-size: 34px;
+  font-size: 46px;
   align-items: center;
 }
 
@@ -201,6 +201,6 @@ footer a:hover {
   }
 
   #last-project-links {
-    margin-top: -90px;
+    margin-top: -50px;
   }
 }
