@@ -42,7 +42,7 @@ header {
 }
 
 .nav_links li a {
-  transition: all 0.4s ease 0.4s;
+  transition: all 0.4s ease 0s;
 }
 
 .nav_links li a:hover {
@@ -140,14 +140,25 @@ header {
   margin-top: -200px;
 }
 
+.about-img {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-img img {
+  margin-top: -10px;
+  margin-right: 10px;
+  border: 2px solid black;
+}
+
 footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
+  height: 500px;
   color: whitesmoke;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.831);
   text-decoration: none;
   padding: 2%;
 }
@@ -163,4 +174,33 @@ footer a:hover {
 
 .project-a {
   color: maroon;
+}
+
+@media screen and (max-width: 950px) {
+  .centered h2 {
+    font-size: 36px;
+    margin-top: 200px;
+  }
+  #header-container {
+    /* background-image:  url(./images/Screen\ Shot\ 2021-11-17\ at\ 3.32.35\ PM.png) ; */
+    background-size: cover;
+    height: 720px;
+    width: 100%;
+    border-bottom: 2px solid black;
+  }
+}
+
+@media screen and (max-width: 650px){
+  #about {
+    height: 560px;
+  }
+  
+  footer a {
+    display: flex;
+    margin-right: 10%;
+  }
+
+  #last-project-links {
+    margin-top: -90px;
+  }
 }
