@@ -134,6 +134,9 @@ header {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 20px;
 }
 
 #last-project-links {
@@ -174,6 +177,18 @@ footer a:hover {
 
 .project-a {
   color: maroon;
+}
+
+.portfolio-section h1 {
+  margin-bottom: 40px;
+}
+
+.portfolio-section hr {
+  width: 15%;
+  margin-left: 42%;
+  background-color: brown;
+  background: black;
+  margin-bottom: 40px;
 }
 
 @media screen and (max-width: 950px) {
