@@ -184,14 +184,28 @@ footer a:hover {
 }
 
 .portfolio-section hr {
-  width: 15%;
-  margin-left: 42%;
+  width: 18%;
+  margin-left: 41%;
   background-color: brown;
   background: black;
   margin-bottom: 40px;
 }
 
+#image-me {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  margin-top: -80px;
+}
+
 @media screen and (max-width: 950px) {
+  
+  #image-me {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-top: -10px;
+  }
   .centered h2 {
     font-size: 36px;
     margin-top: 200px;
@@ -203,11 +217,20 @@ footer a:hover {
     width: 100%;
     border-bottom: 2px solid black;
   }
+
+  #about {
+    height: 500px;
+  }
 }
 
 @media screen and (max-width: 650px){
   #about {
     height: 740px;
+  }
+
+  #image-me {
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .about-img {
@@ -217,11 +240,6 @@ footer a:hover {
 
   .about-img img {
     margin-left: 25%;
-  }
-  
-  footer a {
-    display: flex;
-    margin-right: 10%;
   }
 
   footer img {
@@ -244,5 +262,15 @@ footer a:hover {
 
   .centered {
     margin-top: 30px;
+  }
+
+  #contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contact-info span {
+    padding-top: 5px;
   }
 }
