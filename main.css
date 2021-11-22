@@ -249,12 +249,13 @@ footer a:hover {
   }
 
   #about {
-    height: 740px;
+    height: 780px;
   }
 
   #image-me {
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 45px;
   }
 
   .about-img {
@@ -298,8 +299,5 @@ footer a:hover {
     padding-top: 5px;
   }
 
-  .logo {
-    height: 40px;
-    width: 90px;
-  }
+  
 }
