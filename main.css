@@ -80,6 +80,11 @@ header {
   color: black;
 }
 
+.scrolling-active2 {
+  transition: all 0.6s ease 0s;
+  color: rgba(255, 229, 197, 0.05);
+}
+
 #about {
   display: inline-block;
   justify-content:space-evenly;
@@ -91,6 +96,8 @@ header {
   border-top: 2px solid black;
   border-bottom: 2px solid gainsboro;
 }
+
+
 
 .portfolio-section {
   background-color: gainsboro;
@@ -221,6 +228,7 @@ footer a:hover {
   #about {
     height: 500px;
   }
+
 }
 
 @media screen and (max-width: 650px){
