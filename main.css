@@ -232,6 +232,14 @@ footer a:hover {
 }
 
 @media screen and (max-width: 650px){
+  #header-container {
+    background-image:  url(./images/iphoneSMA.png) ;
+    background-size: cover;
+    height: 720px;
+    width: 100%;
+    border-bottom: 2px solid black;
+  }
+
   #about {
     height: 740px;
   }
@@ -269,7 +277,7 @@ footer a:hover {
   }
 
   .centered {
-    margin-top: 30px;
+    font-size: 28px;
   }
 
   #contact-info {
