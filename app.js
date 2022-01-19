@@ -10,3 +10,9 @@ window.addEventListener('scroll', function () {
   header.classList.toggle('scrolling-active2', windowPosition)
 })
 
+const myPhoto = document.querySelector('#header-container')
+
+const t1 = new TimelineMax();
+
+t1.fromTo(myPhoto, 1, {height: "20px"}, {height: "800"})
+

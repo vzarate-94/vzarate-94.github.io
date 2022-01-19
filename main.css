@@ -205,6 +205,10 @@ footer a:hover {
   margin-top: -80px;
 }
 
+#victor {
+  color: black;
+}
+
 @media screen and (max-width: 950px) {
   
   #image-me {
