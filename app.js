@@ -14,5 +14,4 @@ const myPhoto = document.querySelector('#header-container')
 
 const t1 = new TimelineMax();
 
-t1.fromTo(myPhoto, 1, {height: "20px"}, {height: "800"})
-
+t1.fromTo(myPhoto, 1, {height: "200px"}, {height: "600px", ease: Power2.easeInOut })
