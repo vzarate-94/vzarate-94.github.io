@@ -222,7 +222,7 @@ footer a:hover {
     margin-top: 200px;
   }
   #header-container {
-    /* background-image:  url(./images/Screen\ Shot\ 2021-11-17\ at\ 3.32.35\ PM.png) ; */
+    background-image:  url(./images/sanMiguelPortfolio.jpeg) ;
     background-size: cover;
     height: 720px;
     width: 100%;
@@ -235,6 +235,7 @@ footer a:hover {
 
 }
 
+/* below im adding more mobil responsiveness */
 @media screen and (max-width: 650px){
   #header-container {
     background-image:  url(./images/iphoneSMA.png) ;
