@@ -52,7 +52,7 @@ header {
 #header-container {
   background-image:  url(./images/sanMiguelPortfolio.jpeg) ;
   background-size: cover;
-  height: 720px;
+  height: 820px;
   width: 100%;
   border-bottom: 2px solid black;
 }
@@ -93,8 +93,8 @@ header {
   background-color: rgba(237, 197, 142, 0.53);
   padding: 6%;
   height: 400px;
-  border-top: 2px solid black;
-  border-bottom: 2px solid gainsboro;
+  border-top: 1px solid black;
+  border-bottom: 3px solid black;
 }
 
 

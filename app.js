@@ -8,7 +8,7 @@ const t1 = new TimelineMax();
 // Adding animation to the nav bar for when the page is scrolled below the portfolio section
 window.addEventListener('scroll', function () {
   let header = this.document.querySelector('header')
-  let windowPosition = window.scrollY > 615
+  let windowPosition = window.scrollY > 515
   header.classList.toggle('scrolling-active', windowPosition)
 })
 
