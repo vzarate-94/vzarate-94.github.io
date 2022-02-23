@@ -338,6 +338,12 @@ footer a:hover {
   #contact-info span {
     padding-top: 5px;
   }
-
   
+}
+
+
+@media screen and (max-width: 1150px) {
+  .nav_links li {
+    padding: 0%;
+  }
 }
