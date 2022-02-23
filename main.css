@@ -60,12 +60,24 @@ header {
   color: whitesmoke;
 }
 
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 75% 0;
+  }
+}
+
 #header-container {
   background-image:  url(./images/sanMiguelPortfolio.jpeg) ;
   background-size: cover;
   height: 820px;
   width: 100%;
   border-bottom: 2px solid black;
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 15s linear infinite alternate;
 }
 
 #section3 {
